@@ -1,0 +1,190 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+article{
+    font-family: sans-serif;
+    
+    border:5px solid rgb(0, 11, 13);
+     margin:25px auto; 
+    
+}
+.container{
+    width:825px;
+    margin: auto;
+} 
+article h1:first-child{
+    
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(223, 230, 236, 0.889);
+    position:relative;
+    padding:10px;
+}
+h4{
+    text-transform: uppercase;
+}
+.ship{
+    text-transform: uppercase;
+    color: #a49e9e;
+    font-size: small;
+    margin-bottom: 20px;
+}
+a:link{
+    color:black;
+  
+}
+
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: square;
+}
+button{
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    width: 100%; 
+    padding:15px;
+    border-top: 4px solid black;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    
+}
+.ready{
+    margin-bottom: 10px;
+}
+.anchor{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+ul,ol{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+li:last-child{
+    margin-bottom: 10px;
+}
+h4{
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+h1::before{
+    content:"SALE";
+    letter-spacing:3px;
+    font-size:13px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    display: inline-block;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+.color{
+    background-color: #000;
+    height: 22px;
+    width: 22px;
+    /* display: inline-block; */
+    margin-right: 10px;
+}
+.colors{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box2{
+    background-color: blue;
+    
+ }
+ .box3{
+    background-color: red;
+    
+ }
+ .box4{
+    background-color: yellow;
+ }
+ .box5{
+    background-color: green;
+ }
+   
+ .box6{
+    background-color: brown;
+ }
+ /* .shoeImage{
+    
+    margin-right: 40px;
+    float:left;
+ } */
+ .main-container{
+  
+
+ }
+ .container1{
+    /* display: flex; */
+
+ }
+ .price_and_ship{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+ }
+ .ship{
+    margin-top: 20px;
+ }
+ /* .container1{
+   width: 220px;
+    
+    float:left;
+    margin-right: 40px;
+ } */
+ /* .ship{
+    float:right;
+    margin-top: -12px;
+ } */
+ /* .container2{
+   width:220px;
+    float:left;
+    
+ } */
+ /* .ready{
+    clear: both;
+ } */
+ 
+ .price{
+    margin-top: 20px;
+ }
+ .container1{
+    flex: 0 1 220px;
+ }
+ .container2{
+    flex:0 1 220px;
+     
+     
+  } 
+  
+ .main-container{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px
+
+ }
+ .add-to-cart{
+    display: flex;
+ }
+ .cart{
+    align-self:stretch;
+    
+ }
